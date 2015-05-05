@@ -1,0 +1,14 @@
+.nav li{
+    font-size: 30px;
+    color: green;
+    background-color: black;
+    display: inline;
+}
+.txt1 {
+    display: inline;
+    color: blue;
+}
+.txt2 {
+    display: inline;
+    color: green;
+}
