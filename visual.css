@@ -1,19 +1,17 @@
 body {
     background-image: url("http://s4.postimg.org/jjzynzyh9/Dark_Forest_Wallpaper.jpg");
-    background-size: cover;
+    background-repeat: no-repeat;
 }
-
-.nav li{
+.nav a{
     font-size: 30px;
-    color: green;
+    color: darkgreen;
     background-color: black;
-    display: inline;
 }
 .txt1 {
-    display: inline;
-    color: blue;
+    text-transform: uppercase;
+    color: red;
 }
 .txt2 {
-    display: inline;
-    color: green;
+    color: white;
+    font-weight: bold;
 }
