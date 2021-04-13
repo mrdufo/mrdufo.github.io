@@ -7,7 +7,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top" style="font-size: 30px;">
-        <a href= "#" class="navbar-brand" style="color:darkorange;"><img src=="bitemoji.png">DAVID</a>
+        <a href= "#" class="navbar-brand" style="color:darkorange;">DAVID</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -33,7 +33,7 @@
     
     <div class="container">
         <div class="row">
-            <div class="col-3 container">
+            <div class="col-3">
                 <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
                     
                     <ul class="nav nav-tabs flex-column">
@@ -212,7 +212,7 @@
             var grad;
             ctx.beginPath();
             ctx.arc(0, 0, radius, 0, 2*Math.PI);
-            ctx.fillStyle = 'rgb(0,191,255, .2)';
+            ctx.fillStyle = 'rgb(0,191,255, 1)';
             ctx.fill();
             grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
             grad.addColorStop(0, '#333');
